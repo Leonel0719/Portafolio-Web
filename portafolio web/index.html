@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Programador<br>Junior</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Leonel Alexander</span>, Desarrollador de software</h2>
+                <p class="descripcion">Técnico En Ingenieria De Desarrollo De Software</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img class="foto" src="img/Foto3.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Leonel Alexander</span> </h2>
+            <h3>Desarrollador De Software</h3>
+            <p>Estudiante de la carrera Técnico en Ingeniería de Desarrollo de Software en Escuela Superior Franciscana Especializada Agape(ESFE/Agape)</p>
+            <p>Soy un programador junior, con deseo de cada vez aprender algo nuevo, ser colaborativo, trabajar en proyetos grandes que requieran un equipo de desarrolladores y de contribuir al diseño, implementación y mejora de soluciones tecnológicas.
+                Responsable, autodidacta, con la dispocision de aprender y capacidad de adaptación.</p>
+            <a download="CV" href="CV.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Creación de sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p>Creación de sitio web con los lenguajes de Html, Css y JavaScript, utilizando ademas el boostrap y hacerlo responsive.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programación En C#</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>MVC</li>
+                    <li>ASP.NET</li>
+                    <li>Form</li>
+                </ul>
+                <p>Programación de sitio web con MVC y ASP.NET, ademas puedo realizar proyectos en form para diferentes tipos de necesidades del usuario.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programación en Java</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Java</li>
+                    <li></li>
+                    <li>JavaWeb</li>
+                </ul>
+                <p>Programación en Java para crear sitios Web, programas tipo desktop.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Bases De Datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li>SQL SERVER</li>
+                    <li></li>
+                </ul>
+                <p>Creación, manejo y conexion de Bases De Datos en Sql Server junto con C#</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION DE HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">55%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>C#</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Java</p>
+                <span class="porcentaje">20%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>JavaScript</p>
+                <span class="porcentaje">25%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases De Datos</p>
+                <span class="porcentaje">40%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="Bd"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION DE PORTAFOLIO -->
+    <section id="portfolio">
+        <h2 class="titulo-seccion">Mis Proyectos</h2><br>
+        <p><b>Puedes encontrar varios de mis proyectos en el siguiente enlace a GitHub:</b></p><br>
+        <div class="buttonGit">
+            <a href="https://github.com/Leonel0719"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+
+
+
+
+    <!-- SECCION FOOTER (PIE DE SITIO)-->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://twitter.com/DjZaxion"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/leonelalexander.delcid"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/dj_zaxion_official_/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/qr/QFQH2LOKWF4IG1"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div>
+            <p>En caso de no redirigirte a mi whatsapp, contactame directamente al siguiente numero: +503 6156-4584</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
