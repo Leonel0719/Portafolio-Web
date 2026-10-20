@@ -148,13 +148,20 @@
         #sobremi .contenedor-foto {
             max-width: 400px;
             margin-right: 80px;
+            margin-left: 25px;
         }
         
         #sobremi .contenedor-foto img {
             padding: 5px;
-            width: 100%;
+            width: 130%;
             border-radius: 20px;
-            background-color: #f3f3f3;
+            background-color: #afafaf;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        #sobremi .contenedor-foto img:hover {
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+        transform: translateY(-2px); /* opcional: un pequeño levantamiento */
         }
         
         #sobremi .sobremi {
@@ -208,7 +215,7 @@
         }
         
         #sobremi .sobremi a:hover {
-            background-color: #ff5080;
+            background-color: #ff0000;
             color: #fff;
         }
         /* *********************/
